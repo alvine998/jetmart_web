@@ -78,7 +78,7 @@ export default function NavHome() {
       <img
         alt="logo"
         src="/images/jetmart_logo.jpeg"
-        className="md:h-12 h-7 md:mt-0 mt-3"
+        className="md:h-12 h-7 md:mt-0 mt-3 md:block hidden"
       />
 
       <div className="gap-5 ml-[250px] mt-2 md:flex hidden">
@@ -99,7 +99,7 @@ export default function NavHome() {
       </div>
 
       {/* Search */}
-      <div className="md:ml-[150px] ml-0 md:mt-1 mt-2">
+      <div className="md:ml-[150px] ml-7 md:mt-1 mt-2">
         <input
           type="text"
           placeholder="Cari disini"

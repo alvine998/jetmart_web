@@ -10,7 +10,7 @@ export default function BottomNav() {
     <div
       className="bg-black w-full h-[200px] shadow px-5 py-2 flex mt-40"
     >
-      <img alt="logo" src="/images/jetmart_logo.jpeg" className="h-32 mt-8" />
+      <img alt="logo" src="/images/jetmart_logo.jpeg" className="md:h-32 h-20 md:mt-8 mt-14 mg:ml-0 ml-8" />
 
       <div className="flex gap-5 ml-[250px] mt-2">
         
