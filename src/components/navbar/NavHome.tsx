@@ -81,7 +81,7 @@ export default function NavHome() {
         className="md:h-12 h-7 md:mt-0 mt-3 md:block hidden"
       />
 
-      <div className="gap-5 ml-[250px] mt-2 md:flex hidden">
+      <div className="md:gap-7 gap-5 ml-[250px] mt-2 md:flex hidden">
         {tabs?.map((v: any, i: number) => (
           <div key={i}>
             <a
@@ -103,7 +103,7 @@ export default function NavHome() {
         <input
           type="text"
           placeholder="Cari disini"
-          className="md:p-2 p-1 rounded-full shadow transition-all duration-200 pl-4 focus:outline-none focus:ring focus:ring-red-700"
+          className="md:p-2 p-1 rounded-full shadow transition-all duration-200 md:pl-6 pl-2 focus:outline-none focus:ring focus:ring-red-700"
         />
       </div>
 
